@@ -1,3 +1,3 @@
 # DigiTests Website
 
-<img src="./public/digitests.png" width="80" />
+<img src="./public/digitests.png" width="150" />
