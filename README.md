@@ -1,3 +1,3 @@
 # DigiTests Website
 
-![](/public/digitests.png)
+<img src="./public/digitests.png" width="80" />
