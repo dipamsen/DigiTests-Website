@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  background-color: aqua;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.login, .register {
+  display: flex;
+  flex-direction: column;
+}
