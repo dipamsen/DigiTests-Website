@@ -1,3 +1,3 @@
 # DigiTests Website
 
-![](build/digitests.png)
+![](/public/digitests.png)
