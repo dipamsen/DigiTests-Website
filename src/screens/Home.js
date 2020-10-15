@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import firebase from 'firebase';
-import db from '../config'
+// import db from '../config'
+import '../styles/home.css'
 
 export default class Home extends Component {
   constructor() {

@@ -1,22 +1,67 @@
+body {
+  background-color: aqua;
+}
+
 .main {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 95%;
   text-align: center;
   max-width: 800px;
-  background-color: aqua;
-  margin: auto;
+  margin: 0px auto;
   justify-content: space-around;
+  padding: 20px;
+}
+
+input, select {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.6rem;
+  margin: 0.3rem;
+  font-size: 1rem;
+}
+
+:focus {
+  outline: none;
+  border-width: 2px;
+}
+
+:focus:valid {
+  border-color: green;
+}
+
+button {
+  border: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 0.4rem;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+hr {
+  background-color: black;
 }
 
 .login, .register {
   display: flex;
+  margin: 0;
   flex-direction: column;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
   /* Desktop */
   .main {
     flex-direction: row;
+    background-color: floralwhite;
+  }
+  .login, .register {
+    padding: 40px;
+    border: 1px solid black;
+  }
+  hr {
+    display: none;
   }
 }
